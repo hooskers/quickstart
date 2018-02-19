@@ -1,6 +1,8 @@
 {
     "presets": ["env", "react"],
     "plugins": [
-        ["emotion", {"sourceMap": true}]
+      "transform-object-rest-spread",
+      "transform-class-properties",
+      ["emotion", {"sourceMap": true}]
     ]
 }
