@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: {
-    app: './src/js/app.jsx'
+    app: './src/js/app.jsx',
   },
   plugins: [
     new CleanWebpackPlugin(['dist']),
@@ -27,6 +27,6 @@ module.exports = {
   },
   output: {
     filename: 'app.bundle.js',
-    path: path.resolve(__dirname, 'dist')
-  }
+    path: path.resolve(__dirname, 'dist'),
+  },
 };
